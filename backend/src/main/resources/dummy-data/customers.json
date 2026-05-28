@@ -1,0 +1,67 @@
+[
+  {
+    "id": "C001",
+    "name": "さくら ひな",
+    "avatarEmoji": "🌸",
+    "age": 32,
+    "riskTolerance": "MEDIUM",
+    "totalAssets": 8500000,
+    "investmentGoal": "10年で資産を1.5倍に",
+    "holdings": [
+      { "productId": "P002", "productName": "全世界株式インデックス", "assetClass": "EQUITY", "amount": 1200000 },
+      { "productId": "P010", "productName": "国内債券ファンド", "assetClass": "BOND", "amount": 800000 }
+    ]
+  },
+  {
+    "id": "C002",
+    "name": "もちづき そら",
+    "avatarEmoji": "🌙",
+    "age": 45,
+    "riskTolerance": "LOW",
+    "totalAssets": 15200000,
+    "investmentGoal": "退職後の安定収入確保",
+    "holdings": [
+      { "productId": "P010", "productName": "国内債券ファンド", "assetClass": "BOND", "amount": 3500000 },
+      { "productId": "P012", "productName": "先進国国債ファンド", "assetClass": "BOND", "amount": 2200000 }
+    ]
+  },
+  {
+    "id": "C003",
+    "name": "ほしの れん",
+    "avatarEmoji": "⭐",
+    "age": 28,
+    "riskTolerance": "HIGH",
+    "totalAssets": 4200000,
+    "investmentGoal": "短中期で積極運用",
+    "holdings": [
+      { "productId": "P004", "productName": "新興国株式ファンド", "assetClass": "EQUITY", "amount": 900000 },
+      { "productId": "P006", "productName": "テクノロジーセクター株式", "assetClass": "EQUITY", "amount": 700000 }
+    ]
+  },
+  {
+    "id": "C004",
+    "name": "あおば ゆい",
+    "avatarEmoji": "🍀",
+    "age": 38,
+    "riskTolerance": "MEDIUM",
+    "totalAssets": 9800000,
+    "investmentGoal": "教育資金の準備",
+    "holdings": [
+      { "productId": "P001", "productName": "日経225インデックス", "assetClass": "EQUITY", "amount": 1500000 },
+      { "productId": "P020", "productName": "バランス型ファンド (中庸)", "assetClass": "MIXED", "amount": 1100000 }
+    ]
+  },
+  {
+    "id": "C005",
+    "name": "うみの こと",
+    "avatarEmoji": "🐚",
+    "age": 52,
+    "riskTolerance": "LOW",
+    "totalAssets": 23500000,
+    "investmentGoal": "資産の安定維持と相続対策",
+    "holdings": [
+      { "productId": "P012", "productName": "先進国国債ファンド", "assetClass": "BOND", "amount": 5000000 },
+      { "productId": "P018", "productName": "REIT(国内)ファンド", "assetClass": "REIT", "amount": 2200000 }
+    ]
+  }
+]

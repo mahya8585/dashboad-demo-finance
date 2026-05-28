@@ -1,0 +1,152 @@
+[
+  {
+    "id": "P001",
+    "name": "日経225インデックスファンド",
+    "category": "投資信託",
+    "assetClass": "EQUITY",
+    "riskLevel": "MEDIUM",
+    "expectedReturn": 5.2,
+    "description": "日本を代表する225銘柄に連動。長期コア資産に。",
+    "tags": ["国内株式", "インデックス", "コア", "growth"]
+  },
+  {
+    "id": "P002",
+    "name": "全世界株式インデックスファンド",
+    "category": "投資信託",
+    "assetClass": "EQUITY",
+    "riskLevel": "MEDIUM",
+    "expectedReturn": 6.0,
+    "description": "全世界の株式に幅広く分散投資。低コスト運用。",
+    "tags": ["世界株式", "インデックス", "分散", "growth"]
+  },
+  {
+    "id": "P003",
+    "name": "米国S&P500ファンド",
+    "category": "投資信託",
+    "assetClass": "EQUITY",
+    "riskLevel": "MEDIUM",
+    "expectedReturn": 6.5,
+    "description": "米国大型500銘柄に連動。長期成長を狙う。",
+    "tags": ["米国株式", "インデックス", "growth"]
+  },
+  {
+    "id": "P004",
+    "name": "新興国株式ファンド",
+    "category": "投資信託",
+    "assetClass": "EQUITY",
+    "riskLevel": "HIGH",
+    "expectedReturn": 8.0,
+    "description": "アジア・中南米など新興国に集中投資。高ボラ。",
+    "tags": ["新興国", "高リスク", "growth"]
+  },
+  {
+    "id": "P005",
+    "name": "高配当株式ファンド",
+    "category": "投資信託",
+    "assetClass": "EQUITY",
+    "riskLevel": "MEDIUM",
+    "expectedReturn": 4.8,
+    "description": "高配当銘柄を選別し、インカム収入を重視。",
+    "tags": ["高配当", "インカム", "国内株式"]
+  },
+  {
+    "id": "P006",
+    "name": "テクノロジーセクター株式",
+    "category": "投資信託",
+    "assetClass": "EQUITY",
+    "riskLevel": "HIGH",
+    "expectedReturn": 9.0,
+    "description": "AI・半導体・クラウドの成長企業に集中投資。",
+    "tags": ["テック", "growth", "高リスク"]
+  },
+  {
+    "id": "P010",
+    "name": "国内債券ファンド",
+    "category": "投資信託",
+    "assetClass": "BOND",
+    "riskLevel": "LOW",
+    "expectedReturn": 1.2,
+    "description": "国内債券中心。安定運用の中核。",
+    "tags": ["国内債券", "安定", "rate-up-friendly", "income"]
+  },
+  {
+    "id": "P011",
+    "name": "国内物価連動国債ファンド",
+    "category": "投資信託",
+    "assetClass": "BOND",
+    "riskLevel": "LOW",
+    "expectedReturn": 1.5,
+    "description": "インフレ局面で実質価値を維持。",
+    "tags": ["国内債券", "インフレ対応", "rate-up-friendly"]
+  },
+  {
+    "id": "P012",
+    "name": "先進国国債ファンド",
+    "category": "投資信託",
+    "assetClass": "BOND",
+    "riskLevel": "LOW",
+    "expectedReturn": 2.0,
+    "description": "先進国の国債に分散投資。為替ヘッジあり。",
+    "tags": ["先進国債券", "安定", "rate-up-friendly", "income"]
+  },
+  {
+    "id": "P013",
+    "name": "ハイイールド債券ファンド",
+    "category": "投資信託",
+    "assetClass": "BOND",
+    "riskLevel": "MEDIUM",
+    "expectedReturn": 4.5,
+    "description": "信用力やや低めの社債に分散。利回り重視。",
+    "tags": ["ハイイールド", "income", "中リスク"]
+  },
+  {
+    "id": "P018",
+    "name": "REIT(国内)ファンド",
+    "category": "REIT",
+    "assetClass": "REIT",
+    "riskLevel": "MEDIUM",
+    "expectedReturn": 4.0,
+    "description": "国内不動産に分散投資。分配金重視。",
+    "tags": ["不動産", "income", "国内"]
+  },
+  {
+    "id": "P019",
+    "name": "グローバルREITファンド",
+    "category": "REIT",
+    "assetClass": "REIT",
+    "riskLevel": "MEDIUM",
+    "expectedReturn": 4.6,
+    "description": "世界の不動産に分散。為替ヘッジ選択可。",
+    "tags": ["不動産", "world", "income"]
+  },
+  {
+    "id": "P020",
+    "name": "バランス型ファンド (中庸)",
+    "category": "投資信託",
+    "assetClass": "MIXED",
+    "riskLevel": "MEDIUM",
+    "expectedReturn": 3.8,
+    "description": "株式・債券・REITをバランス良く配分。",
+    "tags": ["バランス", "分散", "コア"]
+  },
+  {
+    "id": "P021",
+    "name": "バランス型ファンド (安定)",
+    "category": "投資信託",
+    "assetClass": "MIXED",
+    "riskLevel": "LOW",
+    "expectedReturn": 2.5,
+    "description": "債券比率高めの安定型バランスファンド。",
+    "tags": ["バランス", "安定", "income"]
+  },
+  {
+    "id": "P030",
+    "name": "ゴールドETF",
+    "category": "ETF",
+    "assetClass": "COMMODITY",
+    "riskLevel": "MEDIUM",
+    "expectedReturn": 3.5,
+    "description": "金価格に連動。インフレ・地政学リスク対策。",
+    "tags": ["金", "インフレ対応", "代替資産"]
+  }
+]

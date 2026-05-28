@@ -1,0 +1,19 @@
+# Production profile (PostgreSQL).
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/finrec}
+    username: ${DB_USER:finrec}
+    password: ${DB_PASSWORD:finrec}
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+    show-sql: false
+
+finrec:
+  recommendation:
+    top-n: 6

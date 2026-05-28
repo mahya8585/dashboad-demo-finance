@@ -1,0 +1,11 @@
+# Local profile (no DB). Dummy beans are activated via @Profile("local").
+spring:
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+      - org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration
+      - org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration
+
+finrec:
+  recommendation:
+    top-n: 6

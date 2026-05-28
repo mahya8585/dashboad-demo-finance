@@ -1,0 +1,84 @@
+{
+  "C001": [
+    {
+      "id": "S001",
+      "name": "ふじた みお",
+      "avatarEmoji": "🌷",
+      "age": 33,
+      "riskTolerance": "MEDIUM",
+      "similarityScore": 0.92,
+      "recentBuys": [
+        { "productId": "P003", "productName": "米国S&P500ファンド", "assetClass": "EQUITY", "amount": 300000, "purchasedAt": "2026-05-10" },
+        { "productId": "P020", "productName": "バランス型ファンド (中庸)", "assetClass": "MIXED", "amount": 200000, "purchasedAt": "2026-04-22" }
+      ]
+    },
+    {
+      "id": "S002",
+      "name": "あさひ こう",
+      "avatarEmoji": "🌼",
+      "age": 30,
+      "riskTolerance": "MEDIUM",
+      "similarityScore": 0.88,
+      "recentBuys": [
+        { "productId": "P003", "productName": "米国S&P500ファンド", "assetClass": "EQUITY", "amount": 250000, "purchasedAt": "2026-05-15" },
+        { "productId": "P018", "productName": "REIT(国内)ファンド", "assetClass": "REIT", "amount": 150000, "purchasedAt": "2026-05-02" }
+      ]
+    }
+  ],
+  "C002": [
+    {
+      "id": "S010",
+      "name": "ふゆの あや",
+      "avatarEmoji": "❄️",
+      "age": 47,
+      "riskTolerance": "LOW",
+      "similarityScore": 0.94,
+      "recentBuys": [
+        { "productId": "P012", "productName": "先進国国債ファンド", "assetClass": "BOND", "amount": 500000, "purchasedAt": "2026-05-12" },
+        { "productId": "P021", "productName": "バランス型ファンド (安定)", "assetClass": "MIXED", "amount": 300000, "purchasedAt": "2026-04-30" }
+      ]
+    }
+  ],
+  "C003": [
+    {
+      "id": "S020",
+      "name": "なつめ りく",
+      "avatarEmoji": "🔥",
+      "age": 27,
+      "riskTolerance": "HIGH",
+      "similarityScore": 0.90,
+      "recentBuys": [
+        { "productId": "P006", "productName": "テクノロジーセクター株式", "assetClass": "EQUITY", "amount": 400000, "purchasedAt": "2026-05-18" },
+        { "productId": "P004", "productName": "新興国株式ファンド", "assetClass": "EQUITY", "amount": 300000, "purchasedAt": "2026-05-08" }
+      ]
+    }
+  ],
+  "C004": [
+    {
+      "id": "S030",
+      "name": "きのした まな",
+      "avatarEmoji": "🌻",
+      "age": 39,
+      "riskTolerance": "MEDIUM",
+      "similarityScore": 0.89,
+      "recentBuys": [
+        { "productId": "P002", "productName": "全世界株式インデックスファンド", "assetClass": "EQUITY", "amount": 350000, "purchasedAt": "2026-05-14" },
+        { "productId": "P019", "productName": "グローバルREITファンド", "assetClass": "REIT", "amount": 200000, "purchasedAt": "2026-04-25" }
+      ]
+    }
+  ],
+  "C005": [
+    {
+      "id": "S040",
+      "name": "おおかわ さと",
+      "avatarEmoji": "🍵",
+      "age": 54,
+      "riskTolerance": "LOW",
+      "similarityScore": 0.93,
+      "recentBuys": [
+        { "productId": "P018", "productName": "REIT(国内)ファンド", "assetClass": "REIT", "amount": 600000, "purchasedAt": "2026-05-16" },
+        { "productId": "P011", "productName": "国内物価連動国債ファンド", "assetClass": "BOND", "amount": 400000, "purchasedAt": "2026-04-28" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: finrec
+  profiles:
+    active: local
+  jpa:
+    open-in-view: false
+
+server:
+  port: 8080
+
+logging:
+  level:
+    com.example.finrec: INFO

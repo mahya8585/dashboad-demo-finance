@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    @apply font-round text-slate-700;
+    background:
+      radial-gradient(1100px 600px at 10% -10%, #ffe9f3 0%, transparent 60%),
+      radial-gradient(900px 500px at 110% 10%, #ecf6ff 0%, transparent 55%),
+      radial-gradient(900px 600px at 50% 110%, #fff7e0 0%, transparent 55%),
+      #fffaf8;
+    min-height: 100vh;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply font-round font-bold text-slate-800;
+  }
+}
+
+@layer components {
+  .kawaii-card {
+    @apply rounded-3xl bg-white/85 backdrop-blur-sm border border-pinky-100 shadow-soft;
+  }
+
+  .kawaii-badge {
+    @apply inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-[11px] font-bold;
+  }
+
+  .kawaii-btn {
+    @apply rounded-full px-4 py-2 font-bold text-white bg-gradient-to-r from-pinky-300 to-lavender-300
+           shadow-soft hover:from-pinky-400 hover:to-lavender-300 transition-all
+           hover:-translate-y-0.5 active:translate-y-0;
+  }
+
+  .kawaii-chip {
+    @apply inline-flex items-center rounded-full bg-pinky-100 text-pinky-500 px-2 py-0.5 text-[11px] font-bold;
+  }
+
+  .kawaii-dot {
+    @apply inline-block w-2.5 h-2.5 rounded-full;
+  }
+}
